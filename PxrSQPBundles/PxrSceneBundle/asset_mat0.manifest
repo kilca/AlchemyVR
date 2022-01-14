@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 467251629
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6141b9429e9720bee619bf9e54c78825
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/EmaceArt/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_wind_tree.mat
+- Assets/EmaceArt/Slavic World Free/_CommonFiles/OtherMaterials/EA03_LPNP-Slavika_Colorsheet_v3.mat
+- Assets/Materials/Glass.mat
+- Assets/Low Polygon Potions Pack/Other Assets/Materials/Glass.mat
+- Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds.mat
+- Assets/EmaceArt/Slavic World Free/Texture/Materials/Flower_Grass.mat
+- Assets/EmaceArt/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_v1.mat
+- Assets/EmaceArt/Slavic World Free/Terrain/SlavicaTerrainDemo.mat
+Dependencies:
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_jpg0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_png0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_tif0

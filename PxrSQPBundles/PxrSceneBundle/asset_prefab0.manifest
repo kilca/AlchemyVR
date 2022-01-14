@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 3726548091
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 34a1e22ebb0e94e9add317d96d9a1e6f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 33a3ca6c1dc3b920830708552f649bd7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_House_Shelf_02c_PRE.prefab
+- Assets/Low Polygon Potions Pack/Prefabs/Empty/3_2.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Environment/Road/EA03_Environment_Road_Cobble_Corner_01a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_spoon_wooden_04_PRE.prefab
+- Assets/Low Polygon Potions Pack/Prefabs/Empty/2_2.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Compound/Roofs/EA03_Town_Ill_Roof_01b_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter/EA03_Prop_Town_AnimalSkin_01c_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_Tabble_02a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Compound/Roofs/EA03_Village_Hut_Ceiling_01e_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_House_Shelf_01a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Crate_01a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Basket_03a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Crate_02a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_01b_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Items/Crockery/EA_Items_House_cauldron_soup_01a_PRE.prefab
+- Assets/maison.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Compound/Walls_Painted/EA03_Town_Hut_Wall_Painted_Front_02a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Nature/EA03_Plant_Grass_01e_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_Town_Bed_01a.004_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Tree/EA03_Nature_Tree_03b_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Hanger_01b_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Chest_02a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Environment/Rock/EA03_Environment_Rock_Mini_Head_01a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Compound/Walls_Painted/EA03_Town_Hut_Wall_Painted_Side_02e_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Conr_01a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Village/Elements/EA03_Prop_House_Shutter_01d_PRE.prefab
+- Assets/Low Polygon Potions Pack/Prefabs/Empty/5_2.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Compound/Walls/EA03_Village_Hut_Wall_Front_02d_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Compound/Walls_Painted/EA03_Town_Hut_Wall_Painted_Side_02c_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter/EA_Prop_Hunter_Animal_Trophy_01a_PRE.prefab
+Dependencies:
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_fbx0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_mat0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_prefab1
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_resources
