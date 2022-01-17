@@ -88,7 +88,14 @@ public class NPCClient : MonoBehaviour
 
         if (hasPotion)
         {
-            if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1)
+            if (anim)
+            {
+                if (anim.GetCurrentAnimatorStateInfo(0).IsName("Dancing") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.95f)
+                {
+                    agent.SetDestination(spawnPoint.position);
+                }
+            }
+            else
             {
                 agent.SetDestination(spawnPoint.position);
             }

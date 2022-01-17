@@ -10,6 +10,7 @@ public class NPCTrigger : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
+        Debug.Log("enter");
         if (other.tag == "Client")
         {
             Debug.Log("client entre ds trigger");
