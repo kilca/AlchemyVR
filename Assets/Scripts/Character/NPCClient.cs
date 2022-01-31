@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEditor;
 using UnityEngine.UI;
+
+#if UNITY_EDITOR
+
 [CustomEditor(typeof(NPCClient))]
 public class NPCClientEditor : Editor
 {
@@ -19,6 +22,8 @@ public class NPCClientEditor : Editor
     }
 
 }
+
+#endif
 public class NPCClient : MonoBehaviour
 {
     private NavMeshAgent agent;
