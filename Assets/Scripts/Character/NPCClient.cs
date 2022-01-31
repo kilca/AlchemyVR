@@ -34,7 +34,7 @@ public class NPCClient : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(agent.velocity.magnitude);
+        //Debug.Log(agent.velocity.magnitude);
         isWalking = (agent.velocity.magnitude > 1.0f);
         anim.SetBool("isWalking", isWalking);
 

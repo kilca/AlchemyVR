@@ -18,5 +18,7 @@ Rappel des [touches](https://learn.unity.com/tutorial/vr-project-setup?uv=2020.3
 - Select : click
 - Grab : G (gauche/shift)
 
+Si marche pas, relancer unity (oui bizarre)
+
 
 
