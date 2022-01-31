@@ -32,6 +32,11 @@ public class NPCClient : MonoBehaviour
     private Transform toPoint;
     private Transform spawnPoint;
 
+    private AudioSource sourceAudio;
+
+    public AudioClip greetingsAudio;
+    public AudioClip victoryAudio;
+
     [Range(1.0f,5.0f)]
     public float speed = 3.5f;
 
@@ -49,10 +54,14 @@ public class NPCClient : MonoBehaviour
             anim.SetTrigger("hasPotion");
         hasPotion = true;
         canvas.gameObject.SetActive(false);
+        sourceAudio.clip = victoryAudio;
+        sourceAudio.Play();
     }
 
     public void ArriveShop() {
         canvas.gameObject.SetActive(true);
+        sourceAudio.clip = greetingsAudio;
+        sourceAudio.Play();
     }
 
     public void ArriveSpawn() { 
@@ -71,6 +80,7 @@ public class NPCClient : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sourceAudio = gameObject.GetComponent<AudioSource>();
         toPoint = GameObject.FindGameObjectWithTag("ToPoint").transform;
         spawnPoint = GameObject.FindGameObjectWithTag("FromPoint").transform;
         agent = GetComponent<NavMeshAgent>();
