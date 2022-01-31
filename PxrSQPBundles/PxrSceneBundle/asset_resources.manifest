@@ -1,0 +1,136 @@
+ManifestFileVersion: 0
+CRC: 2302603148
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c35f5bf658ed54dbb2bd4a1453caf317
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4a89ef4f8d83f6e54c5bc8aed83b762b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Front_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_soon_wooden.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Bottle_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_02i.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_01i.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02e.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_03a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Tree_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bale_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Village_Ladder_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Barrel_01d.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Firewood_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_soup_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_02d.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Crate_Under_Ceiling_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01d.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Stool_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Hanger_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Pick_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_step_platform_Stair_R_03a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Tree_03b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bowl_01.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_02c.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_BredBoard_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tabble_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01g.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_kettle_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Brushwood_03a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Balcony_R_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Cup_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Shelf_01c.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_04.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01c.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_03a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_04h.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_pan_empty_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Environment_Road_Cobble_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_03.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Stove_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_05.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Prop_House_Shutter_01e.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Shelf_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Prop_Hunter_Animal_Trophy_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Cubby_01d.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Crate_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_metal_01c.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Environment_Rock_Head_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_04a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Apple_01c.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_mug_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tabble_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01d.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_OutBuilding_Convenience_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Stump_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Town_Ill_Roof_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Carrot_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02d.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Spoon_01a.fbx
+- Assets/Resources/BillingMode.json
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Forester_wooden_01d.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_mug_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bench_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_spoon_wooden_02.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Corn_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shelf_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_04e.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Stool_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Apple_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Apple_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Items_House_Besom_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Town_AnimalSkin_01c.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_cauldron_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Chest_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Ceiling_01e.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02c.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_2.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Town_Building_Administrative
+  _01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Fence_Plank_02b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bag_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Village_Hut_Foundation_02b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Pillow_01d.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_02.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Fence_Withy_Seam_02a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Town_AnimalSkin_01b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Front_04b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Town_Ill_Roof_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Vegetable_Basket_02.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02c.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Town_Bed_01a.004.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_HouseModule_Porch_R_03b.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Basket_01.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01c.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_bowl_wod_powder_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Environment_Road_Cobble_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Environment_Road_Cobble_Corner_01a.fbx
+- Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA_Items_House_kettle_empty_01a.fbx
+Dependencies: []

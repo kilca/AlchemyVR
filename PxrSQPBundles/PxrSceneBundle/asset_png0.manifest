@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1569505071
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2095bc9f9774467c5582b0e0deb41e38
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds_Back-Z.png
+- Assets/EmaceArt/Slavic World Free/_CommonFiles/OtherTextures/EA02_LPNP-Slavika_Colorsheet_v2.png
+- Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds_Left+X.png
+- Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds_Down-Y.png
+- Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds_Front+Z.png
+- Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds_Up+Y.png
+- Assets/EmaceArt/Slavic World Free/Texture/EA02_LPNP-Slavika_Colorsheet_v1.png
+- Assets/EmaceArt/Slavic World Free/Texture/Flower_Grass_NM.png
+- Assets/EmaceArt/Slavic World Free/Texture/Flower_Grass.png
+- Assets/EmaceArt/Slavic World Free/Skybox/Epic_BigCloudsSoft_V2/EA03_LowPolyBigClouds_Right-X.png
+Dependencies: []
