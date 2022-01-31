@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1730509406
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b332d95db7f364bacdc62d98e3d7b105
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Characters/Chad/Walking.anim
+- Assets/Characters/Chad/Idle.anim
+- Assets/Characters/Chad/Gangnam Style.anim
+Dependencies: []

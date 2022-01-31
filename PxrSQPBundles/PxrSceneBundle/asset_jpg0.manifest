@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3558262617
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 45d8cbab352baca7d132dc950612d9be
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Low Polygon Potions Pack/Other Assets/Materials/Glass Normal.jpg
+Dependencies: []

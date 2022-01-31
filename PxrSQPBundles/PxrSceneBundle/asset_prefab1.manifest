@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 488752743
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5f3d4b6a66efc830d216333996ec7100
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 233116cd19d5fdd10dfa8d69f9482e5e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Low Polygon Potions Pack/Prefabs/Empty/18_2.prefab
+- Assets/Low Polygon Potions Pack/Prefabs/Empty/1_2.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Environment/Road/EA03_Environment_Road_Cobble_01a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Compound/Foundation/EA03_Town_Hut_Foundation_02b_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Crate_03a_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Compound/Walls/EA03_Village_Hut_Wall_Front_02i_PRE.prefab
+- Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_Shelf_01c_PRE.prefab
+Dependencies:
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_fbx0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_mat0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_resources
