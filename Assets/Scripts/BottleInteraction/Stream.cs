@@ -29,8 +29,16 @@ public class Stream : MonoBehaviour
 
     private void UpdateScale()
     {
-        lineRenderer.widthMultiplier = pourDetector.pourScale;
-        splashParticle.transform.localScale = Vector3.one * 12.0f;
+        if (pourDetector)
+        {
+            lineRenderer.widthMultiplier = pourDetector.pourScale;
+            splashParticle.transform.localScale = Vector3.one * 12.0f;
+        }
+        else
+        {
+            lineRenderer.widthMultiplier = 0.5f;
+            splashParticle.transform.localScale = Vector3.one * 12.0f;
+        }
     }
 
 
@@ -82,6 +90,12 @@ public class Stream : MonoBehaviour
                 recipient.RemoveLiquid(liquidChange * Time.deltaTime);
                 if (hit.collider.GetComponent<LiquidRecipient>() != null)
                     hit.collider.GetComponent<LiquidRecipient>().AddLiquid(liquidChange * Time.deltaTime);
+            }
+            else//chaudron
+            {
+                if (hit.collider.GetComponent<LiquidRecipient>() != null)
+                    hit.collider.GetComponent<LiquidRecipient>().AddLiquid(liquidChange * 10 * Time.deltaTime);
+
             }
         }
         else { //s'il touche rien

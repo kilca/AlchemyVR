@@ -38,7 +38,7 @@ public class LiquidRecipient : MonoBehaviour
         UpdateAmount();
     }
 
-    void UpdateAmount() {
+    public void UpdateAmount() {
         Material m = liquidRenderer.material;
         if (fillAmount == 0.0f)
         {
