@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.26213345, g: 0.3663609, b: 0.44445848, a: 1}
+  m_IndirectSpecularColor: {r: 0.26213303, g: 0.36636123, b: 0.44445905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4982,6 +4982,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3738255076481432402, guid: 091d14a26038cb34e8f8c03f3212574d, type: 3}
   m_PrefabInstance: {fileID: 263711435}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &270011768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270011770}
+  - component: {fileID: 270011769}
+  m_Layer: 0
+  m_Name: PotionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &270011769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270011768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfa2f501595a453419ad0320b496f209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recipesList: []
+  globalIngredientList:
+  - {fileID: 919132149155446097, guid: bce497fb8ca0a244f87f3c567462c21c, type: 3}
+  - {fileID: 919132149155446097, guid: 42c5ca476062eae4c863203a79612578, type: 3}
+  - {fileID: 919132149155446097, guid: 704164ea26ecab44cbb015d564a4f5b9, type: 3}
+  - {fileID: 919132149155446097, guid: 7ea7675e4e8c6844f871d55a654d5984, type: 3}
+  - {fileID: 919132149155446097, guid: 5af69d91a207c464cafb7e19fcabe56b, type: 3}
+  - {fileID: 919132149155446097, guid: 6945c8bf29d797b4089113ae6aa0e564, type: 3}
+  finalPotions:
+  - {fileID: 919132149155446097, guid: 2cc36ec14a148c94eb3d9936bacaa15d, type: 3}
+  - {fileID: 919132149155446097, guid: 922484145c9be754da7ba00c658f74cd, type: 3}
+  - {fileID: 919132149155446097, guid: f55a1acf24d5dc542b9c14ad6318c5a5, type: 3}
+--- !u!4 &270011770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270011768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.41477, y: 7.6448, z: 6.5099835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &271312575
 PrefabInstance:
   m_ObjectHideFlags: 0
