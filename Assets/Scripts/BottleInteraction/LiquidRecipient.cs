@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class LiquidRecipient : MonoBehaviour
 {
@@ -12,8 +13,10 @@ public class LiquidRecipient : MonoBehaviour
     public float max = -0.21f;
     public float min = 1.22f;
 
+    public List<Ingredient> ingredients;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         liquidRenderer = transform.GetChild(0).GetComponent<Renderer>();
         UpdateAmount();
@@ -38,7 +41,35 @@ public class LiquidRecipient : MonoBehaviour
         UpdateAmount();
     }
 
+    public static Color CombineColors(params Color[] aColors)
+    {
+        Color result = new Color(0, 0, 0, 0);
+        foreach (Color c in aColors)
+        {
+            result += c;
+        }
+        result /= aColors.Length;
+        return result;
+    }
+
+    public void UpdateColor() {
+        Color finalColor;
+        if (ingredients.Count == 0)
+        {
+            finalColor = Color.blue;
+        }
+        else
+        {
+            finalColor = CombineColors(ingredients.Select(i => i.color).ToArray());
+        }
+        Material m = liquidRenderer.material;
+        m.SetColor("_Tint", finalColor);
+        m.SetColor("_TopColor", finalColor);
+
+    }
+
     public void UpdateAmount() {
+        print(transform.GetChild(0));
         Material m = liquidRenderer.material;
         if (fillAmount == 0.0f)
         {

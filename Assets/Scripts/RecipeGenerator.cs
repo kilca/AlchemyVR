@@ -6,6 +6,7 @@ using System.Linq;
 
 public class RecipeGenerator : MonoBehaviour
 {
+
     [SerializeField]
     public List<Recipe> recipesList;
     public List<GameObject> globalIngredientList;
@@ -28,6 +29,33 @@ public class RecipeGenerator : MonoBehaviour
         }
 
     }
+
+    public GameObject GetFinalPotion(List<Ingredient> ingredients)
+    {
+        foreach (var r in recipesList)
+        {
+            var checkList1 = ingredients.Select(i => i.id);
+            var checkList2 = r.ingredientList.Select(g => g.GetComponent<IngredientComponent>().ingredient.id);
+
+            //on compare si les deux sont egaux
+            bool eq = Enumerable.SequenceEqual(checkList1.OrderBy(t => t), checkList2.OrderBy(t => t));
+            if (eq)
+                return r.Potion;
+        }
+        return null;
+    }
+
+}
+
+//pourrait etre plus propre de faire une operator equals qui compare que avec id
+[System.Serializable]
+public class Ingredient
+{
+    [SerializeField]
+    public Color color;
+    public GameObject gameobject;//pas forcemment utile
+    public int id;
+
 
 }
 
