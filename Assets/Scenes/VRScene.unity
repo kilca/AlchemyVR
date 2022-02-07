@@ -4150,6 +4150,7 @@ Transform:
   - {fileID: 1028619403}
   - {fileID: 1167396817}
   - {fileID: 463808534}
+  - {fileID: 896941776}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5561,7 +5562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 313187642}
   m_Layer: 0
-  m_Name: Npc_To
+  m_Name: NPCTo
   m_TagString: ToPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17443,6 +17444,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8683692249949569691, guid: 99e86460e9bfcf644956d799c342fee2, type: 3}
   m_PrefabInstance: {fileID: 894604948}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &896941776 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7285715006267860330, guid: 80933bd57ea1f234793ba730fa8fd115, type: 3}
+  m_PrefabInstance: {fileID: 926109725}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &899482040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17794,7 +17800,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 237635747}
     m_Modifications:
     - target: {fileID: 7285715006267860329, guid: 80933bd57ea1f234793ba730fa8fd115, type: 3}
       propertyPath: m_Name
@@ -17802,7 +17808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7285715006267860330, guid: 80933bd57ea1f234793ba730fa8fd115, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7285715006267860330, guid: 80933bd57ea1f234793ba730fa8fd115, type: 3}
       propertyPath: m_LocalScale.x
@@ -17814,15 +17820,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7285715006267860330, guid: 80933bd57ea1f234793ba730fa8fd115, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 46.175995
+      value: -183.11726
       objectReference: {fileID: 0}
     - target: {fileID: 7285715006267860330, guid: 80933bd57ea1f234793ba730fa8fd115, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2579956
+      value: 220.54868
       objectReference: {fileID: 0}
     - target: {fileID: 7285715006267860330, guid: 80933bd57ea1f234793ba730fa8fd115, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 47.117996
+      value: -159.90009
       objectReference: {fileID: 0}
     - target: {fileID: 7285715006267860330, guid: 80933bd57ea1f234793ba730fa8fd115, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19701,7 +19707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043575029}
   m_Layer: 0
-  m_Name: Npc_Spawner
+  m_Name: NPCSpawner
   m_TagString: FromPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22114,7 +22120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5359175387813731774, guid: bda7abc04ee23834ea844b0275b5034b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bda7abc04ee23834ea844b0275b5034b, type: 3}
