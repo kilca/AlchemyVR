@@ -43,9 +43,14 @@ public class Sink : MonoBehaviour
 
     public Cauldron chaudron;
 
+    public AudioClip clipFill;
+    public AudioClip clipEmpty;
+
+    private AudioSource audioSource;
     public void Start()
     {
         currentStream = CreateStream();
+        audioSource = GetComponent<AudioSource>();
     }
 
     //code sale
@@ -60,7 +65,11 @@ public class Sink : MonoBehaviour
     public void FillCauldron()
     {
         print("we fill the cauldron");
+        if (chaudron.recipient.fillAmount >= 0.8)
+            return;
         StartPour();
+        audioSource.clip = clipFill;
+        audioSource.Play();
     }
 
     private void EndPour()
@@ -72,7 +81,10 @@ public class Sink : MonoBehaviour
 
     public void EmptyCauldron()
     {
+        print("we empty the cauldron");
         chaudron.EmptyCauldron();
+        audioSource.clip = clipEmpty;
+        audioSource.Play();
     }
 
     public void StartPour()
