@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8230856541937795593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8230856541937795595}
+  - component: {fileID: 8230856541937795592}
+  m_Layer: 0
+  m_Name: PotionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8230856541937795595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8230856541937795593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.41477, y: 7.6448, z: 6.5099835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8230856541937795592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8230856541937795593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfa2f501595a453419ad0320b496f209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recipesList: []
+  globalIngredientList:
+  - {fileID: 3875079707507415495, guid: 46b25e3a8e1c4a14f893af0066083e19, type: 3}
+  - {fileID: 434484074750275723, guid: aeddcbc9875fae14ea89d2e0794d9603, type: 3}
+  - {fileID: 5731173524583952459, guid: 45887532647db0f4f8d537ae8906c8b3, type: 3}
+  - {fileID: 464888187919145577, guid: 5cef0d5662e6eed488d9dedf9434826a, type: 3}
+  - {fileID: 5273036281443438204, guid: 3a32daf28d4c6164e8d6f143a737a914, type: 3}
+  - {fileID: 3193260749349752208, guid: ad5241c6d7a735b428b474c42d5fcc02, type: 3}
+  finalPotions:
+  - {fileID: 919132149155446097, guid: 2cc36ec14a148c94eb3d9936bacaa15d, type: 3}
+  - {fileID: 919132149155446097, guid: 922484145c9be754da7ba00c658f74cd, type: 3}
+  - {fileID: 919132149155446097, guid: f55a1acf24d5dc542b9c14ad6318c5a5, type: 3}
