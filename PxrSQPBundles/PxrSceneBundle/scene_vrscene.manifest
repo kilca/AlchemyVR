@@ -1,0 +1,123 @@
+ManifestFileVersion: 0
+CRC: 1391876398
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: aee09bda9e5bd96a7081b27d3e9a6bd1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: dcaeaf355ac90acb9a209d969ab8819e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1ae26e19cd956134bbdf3c6f65bf393a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7448815bd5148434682b3d931066cd10, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 60d86d429c5a38a438a713737a4bbcd7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 154
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 218
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 238
+  Script: {instanceID: 0}
+- Class: 850595691
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Scenes/VRScene.unity
+Dependencies:
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_asset0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_controller0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_fbx0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_mat0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_prefab0
+- C:/Users/wandrew/Desktop/AlchemyVR/PxrSQPBundles/PxrSceneBundle/asset_prefab1

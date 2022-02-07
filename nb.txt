@@ -1,0 +1,2 @@
+Plus facile de supprimer potion posée et de reinstantier avec potion ayant tous les bons composant ?
+  -> robinet partant de marmite

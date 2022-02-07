@@ -51,7 +51,7 @@ public class PourDetector : MonoBehaviour
 
     }
 
-    private void StartPour()
+    public void StartPour()
     {
         print("start");
         currentStream.gameObject.SetActive(true);
@@ -60,7 +60,6 @@ public class PourDetector : MonoBehaviour
 
     private void EndPour()
     {
-        print("End");
         currentStream.End();
         currentStream.gameObject.SetActive(false);
     }
