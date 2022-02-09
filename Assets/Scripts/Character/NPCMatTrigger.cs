@@ -4,16 +4,13 @@ using UnityEngine;
 
 public class NPCMatTrigger : MonoBehaviour
 {
+
+    private RecipeGenerator recipeGen;
+
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        recipeGen = GameObject.FindObjectOfType<RecipeGenerator>();   
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,12 +19,10 @@ public class NPCMatTrigger : MonoBehaviour
         {
             NPCClient client = GameObject.FindGameObjectWithTag("Client").GetComponent<NPCClient>();
             LiquidRecipient lr = other.GetComponent<LiquidRecipient>();
-
-            // if (lr.ingredients)
-            // {
-                 // client.GetPotion();
-
-            // }
+            if (recipeGen.IsGoodPotion(lr.ingredients)){
+                Destroy(lr.gameObject);
+                client.GetPotion();
+            }
         }
     }
 }

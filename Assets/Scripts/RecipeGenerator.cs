@@ -12,6 +12,9 @@ public class RecipeGenerator : MonoBehaviour
     public List<GameObject> globalIngredientList;
     public List<GameObject> finalPotions;
     System.Random random = new System.Random();
+
+    public int chosenRecipe = 0;
+
     private void Start()
     {
         recipesList = new List<Recipe>();
@@ -27,7 +30,12 @@ public class RecipeGenerator : MonoBehaviour
 
             recipesList.Add(recipe);
         }
+    }
 
+    public bool IsGoodPotion(List<Ingredient> ingredients){
+        var checkList1 = ingredients.Select(i => i.id);
+        var checkList2 = recipesList[chosenRecipe].ingredientList.Select(g => g.GetComponent<IngredientComponent>().ingredient.id);
+        return Enumerable.SequenceEqual(checkList1.OrderBy(t => t), checkList2.OrderBy(t => t));
     }
 
     public GameObject GetFinalPotion(List<Ingredient> ingredients)

@@ -11,6 +11,8 @@ public class Cauldron : MonoBehaviour
 
     private RecipeGenerator recipeGen;
 
+    private bool isMixed = false;
+
     private void Start()
     {
         recipient = GetComponent<LiquidRecipient>();
@@ -26,6 +28,14 @@ public class Cauldron : MonoBehaviour
         ingredients.Clear();
     }
 
+    public void MixPotion(){
+        if (recipient.fillAmount >= 0.9f){
+            isMixed = true;
+            recipient.UpdateColor();
+            GetComponent<AudioSource>().Play();
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         switch (other.tag)
@@ -35,7 +45,7 @@ public class Cauldron : MonoBehaviour
                 if (recipient.fillAmount >= 0.9f && l.fillAmount <= 0.05f)
                 {
                     GameObject pot = recipeGen.GetFinalPotion(ingredients);
-                    if (pot != null)
+                    if (pot != null && isMixed)
                     {
                         l.fillAmount = 1.0f;
                         l.UpdateAmount();
@@ -49,9 +59,9 @@ public class Cauldron : MonoBehaviour
                 IngredientComponent ing = other.GetComponent<IngredientComponent>();
                 if (recipient.fillAmount >= 0.9f)
                 {
+                    isMixed = false;
                     ingredients.Add(ing.ingredient);
                     recipient.ingredients = ingredients;
-                    recipient.UpdateColor();
                     Destroy(other.gameObject);
                 }
                 break;
