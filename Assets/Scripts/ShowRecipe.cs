@@ -40,7 +40,7 @@ public class ShowRecipe : MonoBehaviour
     {
     
         if (numRecipe == 0)
-            numRecipe = nbRecipe;
+            numRecipe = nbRecipe-1;
         else
             numRecipe--;
 
