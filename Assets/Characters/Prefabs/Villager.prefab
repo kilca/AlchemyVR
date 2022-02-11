@@ -53,7 +53,11 @@ MonoBehaviour:
   victoryAudio: {fileID: 8300000, guid: 51443618202d449489036d3730a609b5, type: 3}
   speed: 3.5
   isWalking: 0
-  texts: []
+  hasPotion: 0
+  texts:
+  - X
+  - Y
+  canvas: {fileID: 8893957332733945130}
 --- !u!195 &9208087272792252792
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -394,5 +398,10 @@ PrefabInstance:
 --- !u!224 &8893957332733945127 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 334424727805642367, guid: 88f1235d5992d2f4aacbed78f0bf4ab7, type: 3}
+  m_PrefabInstance: {fileID: 9208087273837437784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &8893957332733945130 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 334424727805642354, guid: 88f1235d5992d2f4aacbed78f0bf4ab7, type: 3}
   m_PrefabInstance: {fileID: 9208087273837437784}
   m_PrefabAsset: {fileID: 0}

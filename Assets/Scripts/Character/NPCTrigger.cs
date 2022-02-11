@@ -5,8 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider))]
 public class NPCTrigger : MonoBehaviour
 {
-    public enum Type { Spawn, Comptoir};
+    public enum Type {Comptoir, Despawn};
     public Type lieu;
+    public NPCManager npcManager; 
 
     public void OnTriggerEnter(Collider other)
     {
@@ -20,10 +21,12 @@ public class NPCTrigger : MonoBehaviour
                 case Type.Comptoir:
                     npClient.ArriveShop();
                     break;
-                case Type.Spawn:
-                    npClient.ArriveSpawn();
+                case Type.Despawn:
+                    npClient.ArriveDespawn();
+                    NPCManager.lastHasDespawn = true;
                     break;
             }
+
         }
     }
 }
