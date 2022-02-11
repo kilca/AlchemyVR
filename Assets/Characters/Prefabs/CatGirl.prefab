@@ -580,7 +580,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816895861318257663}
-  m_LocalRotation: {x: -1.5386186e-12, y: 0.070690356, z: -2.1718852e-11, w: 0.99749833}
+  m_LocalRotation: {x: 0, y: 0.0706879, z: 0, w: 0.99749845}
   m_LocalPosition: {x: 29.65765, y: 0.25106585, z: 39.374588}
   m_LocalScale: {x: 5.4222054, y: 5.4222054, z: 5.4222054}
   m_Children:
@@ -589,7 +589,7 @@ Transform:
   - {fileID: 1582875602214441377}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 8.107, z: 0}
 --- !u!54 &1582875601731898006
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -630,8 +630,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a73bcb4de6433f04a89b00537c1f8d7a, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -747,8 +747,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d86d429c5a38a438a713737a4bbcd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  greetingsAudio: {fileID: 8300000, guid: 6890c1ceeede5244aa603dc05de75295, type: 3}
-  victoryAudio: {fileID: 8300000, guid: a73bcb4de6433f04a89b00537c1f8d7a, type: 3}
+  greetingsAudio: {fileID: 8300000, guid: a73bcb4de6433f04a89b00537c1f8d7a, type: 3}
+  victoryAudio: {fileID: 8300000, guid: 51443618202d449489036d3730a609b5, type: 3}
   speed: 3.5
   isWalking: 0
   hasPotion: 0
