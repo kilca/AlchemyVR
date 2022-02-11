@@ -101,6 +101,7 @@ MonoBehaviour:
     color: {r: 0.22352943, g: 0.2392157, b: 0.2627451, a: 1}
     gameobject: {fileID: 0}
     id: 1
+  sprite: {fileID: 21300000, guid: 1bab4b3fe93dd214f9ddf7229745ce85, type: 3}
 --- !u!65 &916241707305856664
 BoxCollider:
   m_ObjectHideFlags: 0

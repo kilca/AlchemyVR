@@ -1397,8 +1397,12 @@ MonoBehaviour:
   victoryAudio: {fileID: 8300000, guid: cc8d3a548b304d44695fef926c630e6f, type: 3}
   speed: 3.5
   isWalking: 0
+  hasPotion: 0
   texts:
-  - Hello there
+  - 'Hey, I''m Chad, I gime a potion of '
+  - 'Hello, I''m Chad, I gime a potion of '
+  canvas: {fileID: 5088773249225435042}
+  askPotionText: {fileID: 5088773250583574793}
 --- !u!1 &5370280538743504661
 GameObject:
   m_ObjectHideFlags: 0

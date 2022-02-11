@@ -10,6 +10,7 @@ using UnityEngine.UI;
 [CustomEditor(typeof(NPCClient))]
 public class NPCClientEditor : Editor
 {
+
     public override void OnInspectorGUI()
     {
         NPCClient client = (NPCClient)target;
@@ -17,6 +18,7 @@ public class NPCClientEditor : Editor
         if (GUILayout.Button("Give Potion"))
         {
             client.GetPotion();
+            client.hasPotion = true;
         }
             
     }
@@ -42,13 +44,15 @@ public class NPCClient : MonoBehaviour
 
     public bool isWalking;
 
-    private bool hasPotion = false;
+    public bool hasPotion = false;
 
     [SerializeField]
     public List<string> texts;
+    
+    public Canvas canvas;
 
-    private Canvas canvas;
-    private Text askPotionText;
+    public Text askPotionText;
+
     public void GetPotion() {
         if (anim != null)
             anim.SetTrigger("hasPotion");
@@ -64,17 +68,20 @@ public class NPCClient : MonoBehaviour
         sourceAudio.Play();
     }
 
-    public void ArriveSpawn() { 
+    public void ArriveDespawn() { 
         if (hasPotion)
         {
             Destroy(gameObject);
         }
-    
     }
 
     void ChooseText() {
-        int idSelected = Random.Range(0, texts.Count);
-        askPotionText.text = texts[idSelected];
+        RecipeGenerator generator = FindObjectOfType<RecipeGenerator>();
+        generator.chosenRecipe = Random.Range(0,2);
+        int idSelected = Random.Range(0, texts.Count-1);
+        Debug.Log(askPotionText.text);
+        Debug.Log(texts[idSelected]);
+        askPotionText.text = texts[idSelected] + generator.finalPotions[generator.chosenRecipe].name;
     }
 
     // Start is called before the first frame update
@@ -83,14 +90,13 @@ public class NPCClient : MonoBehaviour
         sourceAudio = gameObject.GetComponent<AudioSource>();
         toPoint = GameObject.FindGameObjectWithTag("ToPoint").transform;
         spawnPoint = GameObject.FindGameObjectWithTag("FromPoint").transform;
+
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
 
         agent.speed = speed;
         agent.SetDestination(toPoint.position);
 
-        canvas = GetComponentInChildren<Canvas>();
-        askPotionText = GetComponentInChildren<Text>();
         ChooseText();
         canvas.gameObject.SetActive(false);
     }

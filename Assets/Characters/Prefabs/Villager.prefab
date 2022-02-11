@@ -53,7 +53,12 @@ MonoBehaviour:
   victoryAudio: {fileID: 8300000, guid: 51443618202d449489036d3730a609b5, type: 3}
   speed: 3.5
   isWalking: 0
-  texts: []
+  hasPotion: 0
+  texts:
+  - 'Hello, I''m Villager, I want to buy a potion of '
+  - 'Hey, I''m Villager, I want to buy a potion of  '
+  canvas: {fileID: 8893957332733945130}
+  askPotionText: {fileID: 8893957331911113601}
 --- !u!195 &9208087272792252792
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -396,3 +401,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 334424727805642367, guid: 88f1235d5992d2f4aacbed78f0bf4ab7, type: 3}
   m_PrefabInstance: {fileID: 9208087273837437784}
   m_PrefabAsset: {fileID: 0}
+--- !u!223 &8893957332733945130 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 334424727805642354, guid: 88f1235d5992d2f4aacbed78f0bf4ab7, type: 3}
+  m_PrefabInstance: {fileID: 9208087273837437784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8893957331911113601 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 334424729163847897, guid: 88f1235d5992d2f4aacbed78f0bf4ab7, type: 3}
+  m_PrefabInstance: {fileID: 9208087273837437784}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
