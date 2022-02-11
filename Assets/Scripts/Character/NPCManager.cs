@@ -22,6 +22,7 @@ public class NPCManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(lastHasDespawn);
         if(lastHasDespawn){
             SpawnPrefab();
         }
@@ -32,18 +33,9 @@ public class NPCManager : MonoBehaviour
         lastHasDespawn = false;
         GameObject prefab = npcs[index];
         Instantiate(prefab, spawn.transform.position, Quaternion.identity);
-        if (index == 3){
+        if (index == npcs.Count-1){
             index = 0;
         }
         else {index++;}
     }
-
-
-
-
-
-
-
-
-    
 }
