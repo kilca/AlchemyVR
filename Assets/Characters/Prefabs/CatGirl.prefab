@@ -751,7 +751,11 @@ MonoBehaviour:
   victoryAudio: {fileID: 8300000, guid: a73bcb4de6433f04a89b00537c1f8d7a, type: 3}
   speed: 3.5
   isWalking: 0
-  texts: []
+  hasPotion: 0
+  texts:
+  - X
+  - Y
+  canvas: {fileID: 1582875602214441382}
 --- !u!195 &1582875601731898001
 NavMeshAgent:
   m_ObjectHideFlags: 0

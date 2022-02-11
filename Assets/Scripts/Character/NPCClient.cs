@@ -10,6 +10,7 @@ using UnityEngine.UI;
 [CustomEditor(typeof(NPCClient))]
 public class NPCClientEditor : Editor
 {
+
     public override void OnInspectorGUI()
     {
         NPCClient client = (NPCClient)target;
@@ -17,6 +18,7 @@ public class NPCClientEditor : Editor
         if (GUILayout.Button("Give Potion"))
         {
             client.GetPotion();
+            client.hasPotion = true;
         }
             
     }
@@ -42,12 +44,13 @@ public class NPCClient : MonoBehaviour
 
     public bool isWalking;
 
-    private bool hasPotion = false;
+    public bool hasPotion = false;
 
     [SerializeField]
     public List<string> texts;
+    
+    public Canvas canvas;
 
-    private Canvas canvas;
     private Text askPotionText;
     public void GetPotion() {
         if (anim != null)
@@ -64,12 +67,11 @@ public class NPCClient : MonoBehaviour
         sourceAudio.Play();
     }
 
-    public void ArriveSpawn() { 
+    public void ArriveDespawn() { 
         if (hasPotion)
         {
             Destroy(gameObject);
         }
-    
     }
 
     void ChooseText() {
@@ -83,13 +85,13 @@ public class NPCClient : MonoBehaviour
         sourceAudio = gameObject.GetComponent<AudioSource>();
         toPoint = GameObject.FindGameObjectWithTag("ToPoint").transform;
         spawnPoint = GameObject.FindGameObjectWithTag("FromPoint").transform;
+
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
 
         agent.speed = speed;
         agent.SetDestination(toPoint.position);
 
-        canvas = GetComponentInChildren<Canvas>();
         askPotionText = GetComponentInChildren<Text>();
         ChooseText();
         canvas.gameObject.SetActive(false);

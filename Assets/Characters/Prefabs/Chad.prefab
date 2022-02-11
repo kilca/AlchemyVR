@@ -1397,8 +1397,11 @@ MonoBehaviour:
   victoryAudio: {fileID: 8300000, guid: cc8d3a548b304d44695fef926c630e6f, type: 3}
   speed: 3.5
   isWalking: 0
+  hasPotion: 0
   texts:
-  - Hello there
+  - X
+  - Y
+  canvas: {fileID: 5088773249225435042}
 --- !u!1 &5370280538743504661
 GameObject:
   m_ObjectHideFlags: 0
