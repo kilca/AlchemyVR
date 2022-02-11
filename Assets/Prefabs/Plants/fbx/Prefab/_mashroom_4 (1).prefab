@@ -235,3 +235,4 @@ MonoBehaviour:
     color: {r: 0.09411766, g: 0.078431375, b: 0.08627451, a: 1}
     gameobject: {fileID: 0}
     id: 6
+  sprite: {fileID: 21300000, guid: fcf9d5c59f5fff346b717946b69dd325, type: 3}

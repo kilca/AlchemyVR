@@ -5,5 +5,6 @@ using UnityEngine;
 public class IngredientComponent : MonoBehaviour
 {
     public Ingredient ingredient;
+    public Sprite sprite;
 
 }
