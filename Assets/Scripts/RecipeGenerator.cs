@@ -22,13 +22,32 @@ public class RecipeGenerator : MonoBehaviour
     }
 
     private void generateRecipes(List<Recipe> recipesList){
-        foreach(GameObject potion in finalPotions){ 
+        foreach(GameObject potion in finalPotions){
 
-            List<GameObject> IngredientList = globalIngredientList.OrderBy(x => random.Next()).Take(3).ToList();
+            bool isCreate = false;
+            while (!isCreate)
+            {
+                List<GameObject> IngredientList = globalIngredientList.OrderBy(x => random.Next()).Take(3).ToList();
+                bool isUnique = true;
 
-            Recipe recipe = new Recipe(potion, IngredientList);
+                foreach (Recipe r in recipesList)
+                {
+                    int noUnique = 0;
+                    foreach (GameObject go in IngredientList)
+                    {
+                        if (r.ingredientList.Contains(go)) noUnique++;
 
-            recipesList.Add(recipe);
+                    }
+                    if (noUnique ==3) isUnique = false;
+                }
+
+                if (isUnique)
+                {
+                    Recipe recipe = new Recipe(potion, IngredientList);
+                    recipesList.Add(recipe);
+                    isCreate = true;
+                }
+            }
         }
     }
 
