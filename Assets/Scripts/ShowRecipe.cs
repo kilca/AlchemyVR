@@ -10,7 +10,7 @@ public class ShowRecipe : MonoBehaviour
     public List<Text> ingredients;
     public Text txtNumPotion;
     public Image imgPotion;
-    public int numRecipe;
+    public int numRecipe = 0;
     public List<Image> lstImage;
 
 
@@ -29,6 +29,7 @@ public class ShowRecipe : MonoBehaviour
 
         nbRecipe = lstRecipe.Count;
 
+        Refresh();
     }
 
     // Update is called once per frame
