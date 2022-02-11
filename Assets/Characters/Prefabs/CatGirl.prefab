@@ -753,9 +753,10 @@ MonoBehaviour:
   isWalking: 0
   hasPotion: 0
   texts:
-  - X
-  - Y
+  - 'Hey Nya, I''m CatGirl, I want to buy a potion of '
+  - 'Hello Nya, I''m CatGirl, I want to buy a potion of '
   canvas: {fileID: 1582875602214441382}
+  askPotionText: {fileID: 1582875602973809460}
 --- !u!195 &1582875601731898001
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -1399,9 +1399,10 @@ MonoBehaviour:
   isWalking: 0
   hasPotion: 0
   texts:
-  - X
-  - Y
+  - 'Hey, I''m Chad, I gime a potion of '
+  - 'Hello, I''m Chad, I gime a potion of '
   canvas: {fileID: 5088773249225435042}
+  askPotionText: {fileID: 5088773250583574793}
 --- !u!1 &5370280538743504661
 GameObject:
   m_ObjectHideFlags: 0

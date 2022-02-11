@@ -1538,9 +1538,10 @@ MonoBehaviour:
   isWalking: 0
   hasPotion: 0
   texts:
-  - X
-  - Y
+  - 'Hello, I''m Mario, I want to buy a potion of '
+  - 'Hey, I''m Mario, I want to buy a potion of '
   canvas: {fileID: 1120962338372629430}
+  askPotionText: {fileID: 1120962338767722590}
 --- !u!1 &4209134911334940160
 GameObject:
   m_ObjectHideFlags: 0
