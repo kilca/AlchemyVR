@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 5358726804741044031}
   m_Layer: 0
   m_Name: Child
-  m_TagString: Client
+  m_TagString: Bottle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,8 +194,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fillAmount: 0
-  max: -0.21
-  min: 1.22
+  max: 0.3
+  min: 0.72
   ingredients: []
 --- !u!114 &5358726804741044031
 MonoBehaviour:

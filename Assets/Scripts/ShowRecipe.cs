@@ -23,12 +23,17 @@ public class ShowRecipe : MonoBehaviour
     {
         generator = GameObject.FindObjectOfType<RecipeGenerator>();
         if (generator == null) print("generator is null");
+        StartCoroutine(WaitSeconds());
+    }
 
+    //on peut faire en faisant que le script se lance apres mais flm
+    IEnumerator WaitSeconds()
+    {
+        yield return new WaitForSeconds(0.5f);
         lstRecipe = generator.recipesList;
         if (lstRecipe == null) print("lstRecipe is null");
 
         nbRecipe = lstRecipe.Count;
-
         Refresh();
     }
 
@@ -61,6 +66,10 @@ public class ShowRecipe : MonoBehaviour
 
     public void Refresh()
     {
+        Debug.Log("ICIa : "+ ingredients.Count);
+        Debug.Log("ICIb : " + lstRecipe.Count);
+        Debug.Log("ICIc : " + lstRecipe[numRecipe].ingredientList.Count);
+
         potionName.text = lstRecipe[numRecipe].Potion.name;
         txtNumPotion.text = (numRecipe+1).ToString();
         ingredients[0].text = lstRecipe[numRecipe].ingredientList[0].name;
@@ -68,6 +77,8 @@ public class ShowRecipe : MonoBehaviour
         ingredients[2].text = lstRecipe[numRecipe].ingredientList[2].name;
 
         //var text = AssetPreview;
+
+        Debug.Log("ICI2");
 
         //imgPotion.sprite = lstRecipe[numRecipe].Potion.;
         lstImage[0].sprite = lstRecipe[numRecipe].ingredientList[0].GetComponent<IngredientComponent>().sprite;

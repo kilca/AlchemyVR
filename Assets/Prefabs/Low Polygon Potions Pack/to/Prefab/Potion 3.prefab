@@ -378,8 +378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fillAmount: 0
-  max: -0.21
-  min: 1.22
+  max: 0.39
+  min: 0.65
   ingredients: []
 --- !u!114 &8122059761052845759
 MonoBehaviour:

@@ -66,8 +66,12 @@ public class PourDetector : MonoBehaviour
 
     private float CalculatePourAngle() {
 
-        float zAngle = 180 - Mathf.Abs(180 - transform.rotation.eulerAngles.z);
-        float xAngle = 180 - Mathf.Abs(180 - transform.rotation.eulerAngles.x);
+        Transform t = transform;
+        if (tag == "Bottle")
+            t = transform.parent;
+
+        float zAngle = 180 - Mathf.Abs(180 - t.rotation.eulerAngles.z);
+        float xAngle = 180 - Mathf.Abs(180 - t.rotation.eulerAngles.x);
         return Mathf.Max(zAngle, xAngle);
         //return transform.forward.y * Mathf.Rad2Deg;
 

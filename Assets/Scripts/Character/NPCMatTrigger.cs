@@ -7,6 +7,9 @@ public class NPCMatTrigger : MonoBehaviour
 
     private RecipeGenerator recipeGen;
 
+    public Transform spawnVBuck;
+    public GameObject vbuck;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +21,16 @@ public class NPCMatTrigger : MonoBehaviour
         if (other.tag == "Bottle")
         {
             NPCClient client = GameObject.FindGameObjectWithTag("Client").GetComponent<NPCClient>();
+            Debug.Log("client : " + client);
+            Debug.Log("object client : " + GameObject.FindGameObjectWithTag("Client"));
+            if (client == null)
+                client = FindObjectOfType<NPCClient>();
+
             LiquidRecipient lr = other.GetComponent<LiquidRecipient>();
             if (recipeGen.IsGoodPotion(lr.ingredients)){
-                Destroy(lr.gameObject);
                 client.GetPotion();
+                Destroy(lr.gameObject);
+                Instantiate(vbuck, spawnVBuck.position, Quaternion.identity);
             }
         }
     }

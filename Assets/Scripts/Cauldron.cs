@@ -1,7 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
+using UnityEngine.UI;
 
+#if UNITY_EDITOR
+
+[CustomEditor(typeof(Cauldron))]
+public class CauldonEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        Cauldron si = (Cauldron)target;
+        DrawDefaultInspector();
+        if (GUILayout.Button("Mix Potion"))
+        {
+            si.MixPotion();
+        }
+
+    }
+
+}
+
+#endif
 public class Cauldron : MonoBehaviour
 {
     [HideInInspector]
