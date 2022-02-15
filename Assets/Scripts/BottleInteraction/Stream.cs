@@ -89,7 +89,25 @@ public class Stream : MonoBehaviour
             {
                 recipient.RemoveLiquid(liquidChange * Time.deltaTime);
                 if (hit.collider.GetComponent<LiquidRecipient>() != null)
-                    hit.collider.GetComponent<LiquidRecipient>().AddLiquid(liquidChange * Time.deltaTime);
+                {
+                    LiquidRecipient lr = hit.collider.GetComponent<LiquidRecipient>();
+                    lr.AddLiquid(liquidChange * Time.deltaTime);
+                    foreach(var v in recipient.ingredients)
+                    {
+                        bool contains = false;
+                        foreach(var v2 in lr.ingredients)
+                        {
+                            if (v2.id == v.id)
+                                contains = true;
+                        }
+                        if (!contains)
+                        {
+                            lr.ingredients.Add(v);
+                        }
+                    }
+
+
+                }
             }
             else//chaudron
             {

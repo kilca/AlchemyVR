@@ -11,12 +11,14 @@ public class RecipeGenerator : MonoBehaviour
     public List<Recipe> recipesList;
     public List<GameObject> globalIngredientList;
     public List<GameObject> finalPotions;
-    System.Random random = new System.Random();
+    System.Random random;
 
     public int chosenRecipe = 0;
 
     private void Start()
     {
+        random = new System.Random((int)System.DateTime.Now.Ticks);
+       
         recipesList = new List<Recipe>();
         generateRecipes(recipesList);
     }

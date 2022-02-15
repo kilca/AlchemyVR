@@ -9,11 +9,13 @@ public class NPCMatTrigger : MonoBehaviour
 
     public Transform spawnVBuck;
     public GameObject vbuck;
+    private AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
     {
-        recipeGen = GameObject.FindObjectOfType<RecipeGenerator>();   
+        recipeGen = GameObject.FindObjectOfType<RecipeGenerator>();
+        audio = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -31,6 +33,10 @@ public class NPCMatTrigger : MonoBehaviour
                 client.GetPotion();
                 Destroy(lr.gameObject);
                 Instantiate(vbuck, spawnVBuck.position, Quaternion.identity);
+            }
+            else
+            {
+                audio.Play();
             }
         }
     }

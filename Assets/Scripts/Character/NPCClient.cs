@@ -10,7 +10,6 @@ using UnityEngine.UI;
 [CustomEditor(typeof(NPCClient))]
 public class NPCClientEditor : Editor
 {
-
     public override void OnInspectorGUI()
     {
         NPCClient client = (NPCClient)target;
@@ -18,7 +17,6 @@ public class NPCClientEditor : Editor
         if (GUILayout.Button("Give Potion"))
         {
             client.GetPotion();
-            client.hasPotion = true;
         }
             
     }
@@ -44,15 +42,13 @@ public class NPCClient : MonoBehaviour
 
     public bool isWalking;
 
-    public bool hasPotion = false;
+    private bool hasPotion = false;
 
     [SerializeField]
     public List<string> texts;
-    
-    public Canvas canvas;
 
-    public Text askPotionText;
-
+    private Canvas canvas;
+    private Text askPotionText;
     public void GetPotion() {
         if (anim != null)
             anim.SetTrigger("hasPotion");
@@ -73,15 +69,12 @@ public class NPCClient : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    
     }
 
     void ChooseText() {
-        RecipeGenerator generator = FindObjectOfType<RecipeGenerator>();
-        generator.chosenRecipe = Random.Range(0,2);
-        int idSelected = Random.Range(0, texts.Count-1);
-        Debug.Log(askPotionText.text);
-        Debug.Log(texts[idSelected]);
-        askPotionText.text = texts[idSelected] + generator.finalPotions[generator.chosenRecipe].name;
+        int idSelected = Random.Range(0, texts.Count);
+        askPotionText.text = texts[idSelected];
     }
 
     // Start is called before the first frame update
@@ -90,13 +83,14 @@ public class NPCClient : MonoBehaviour
         sourceAudio = gameObject.GetComponent<AudioSource>();
         toPoint = GameObject.FindGameObjectWithTag("ToPoint").transform;
         spawnPoint = GameObject.FindGameObjectWithTag("FromPoint").transform;
-
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
 
         agent.speed = speed;
         agent.SetDestination(toPoint.position);
 
+        canvas = GetComponentInChildren<Canvas>();
+        askPotionText = GetComponentInChildren<Text>();
         ChooseText();
         canvas.gameObject.SetActive(false);
     }
@@ -121,7 +115,6 @@ public class NPCClient : MonoBehaviour
                 agent.SetDestination(spawnPoint.position);
             }
         }
-
         if (anim != null)
             anim.SetBool("isWalking", isWalking);
 
