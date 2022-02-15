@@ -7,7 +7,8 @@ public class PourDetector : MonoBehaviour
     public int pourThreshold = 45;
 
     [Range(0.1f,2.0f)]
-    public float pourScale = 1.0f;
+    [HideInInspector]
+    public float pourScale = 0.1f;
 
     public Transform origin = null;
     public GameObject streamPrefab = null;
