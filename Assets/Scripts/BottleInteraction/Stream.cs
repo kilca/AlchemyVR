@@ -18,6 +18,8 @@ public class Stream : MonoBehaviour
     private PourDetector pourDetector;
     private LiquidRecipient recipient;
 
+    private float width = 0.1f;
+
     private void Awake()
     {
         pourDetector = GetComponentInParent<PourDetector>();
@@ -29,14 +31,17 @@ public class Stream : MonoBehaviour
 
     private void UpdateScale()
     {
+        lineRenderer.widthMultiplier = width;
+
         if (pourDetector)
         {
-            lineRenderer.widthMultiplier = pourDetector.pourScale;
+            //lineRenderer.widthMultiplier = pourDetector.pourScale;
+
             splashParticle.transform.localScale = Vector3.one * 12.0f;
         }
         else
         {
-            lineRenderer.widthMultiplier = 0.5f;
+            //lineRenderer.widthMultiplier = 0.1f;
             splashParticle.transform.localScale = Vector3.one * 12.0f;
         }
     }
