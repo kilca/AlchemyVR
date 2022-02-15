@@ -36,12 +36,29 @@ public class Cauldron : MonoBehaviour
 
     public int nbPotion = 2;
 
+    public ParticleSystem particleObject;
+
+    private AudioSource sourceAudio;
+
+    public AudioClip onMixAudio;
+    public AudioClip onIngredientAudio;
+    public AudioClip doneAudio;
+
     private void Start()
     {
+        sourceAudio = GetComponent<AudioSource>();
         recipient = GetComponent<LiquidRecipient>();
         recipient.UpdateAmount();
         //sale mais osef
         recipeGen = GameObject.FindObjectOfType<RecipeGenerator>();
+        particleObject.Stop();
+    }
+
+    IEnumerator effect()
+    {
+        particleObject.Play();
+        yield return new WaitForSeconds(5);
+        particleObject.Stop();
     }
 
     public void EmptyCauldron()
@@ -55,7 +72,8 @@ public class Cauldron : MonoBehaviour
         if (recipient.fillAmount >= 0.9f){
             isMixed = true;
             recipient.UpdateColor();
-            GetComponent<AudioSource>().Play();
+            sourceAudio.clip = onMixAudio;
+            sourceAudio.Play();
             nbPotion = 2;
         }
     }
@@ -76,6 +94,8 @@ public class Cauldron : MonoBehaviour
                         l.UpdateAmount();
                         l.ingredients = ingredients;
                         l.UpdateColor();
+                        sourceAudio.clip = doneAudio;
+                        sourceAudio.Play();
                         print("potion cree, ca fait des bulles");
                         nbPotion--;
                         if (nbPotion == 0)
@@ -92,6 +112,9 @@ public class Cauldron : MonoBehaviour
                     ingredients.Add(ing.ingredient);
                     recipient.ingredients = ingredients;
                     Destroy(other.gameObject);
+                    sourceAudio.clip = onIngredientAudio;
+                    sourceAudio.Play();
+                    StartCoroutine(effect());
                 }
                 break;
         }

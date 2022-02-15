@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1092610903879332805}
   - component: {fileID: 355990908183425976}
   m_Layer: 0
-  m_Name: Champignon entonnoir
+  m_Name: Champignon Entonnoir
   m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

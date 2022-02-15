@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1979581715991885093}
   - component: {fileID: 5436811662624200035}
   m_Layer: 0
-  m_Name: Champignon des prairies
+  m_Name: Champignon des Prairies
   m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

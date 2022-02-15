@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 470950106071103872}
   - component: {fileID: 5824573107338064882}
   m_Layer: 0
-  m_Name: Fleur saphir
+  m_Name: Fleur Saphir
   m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

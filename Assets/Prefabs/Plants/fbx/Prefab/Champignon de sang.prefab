@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1407957427256171166}
   - component: {fileID: 3186313000752449974}
   m_Layer: 0
-  m_Name: Champignon de sang
+  m_Name: Champignon de Sang
   m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

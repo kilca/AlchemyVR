@@ -48,7 +48,9 @@ public class NPCClient : MonoBehaviour
     public List<string> texts;
 
     private Canvas canvas;
-    private Text askPotionText;
+
+    public Text askPotionText;
+
     public void GetPotion() {
         if (anim != null)
             anim.SetTrigger("hasPotion");
@@ -73,8 +75,12 @@ public class NPCClient : MonoBehaviour
     }
 
     void ChooseText() {
-        int idSelected = Random.Range(0, texts.Count);
-        askPotionText.text = texts[idSelected];
+        RecipeGenerator generator = FindObjectOfType<RecipeGenerator>();
+        generator.chosenRecipe = Random.Range(0, 2);
+        int idSelected = Random.Range(0, texts.Count - 1);
+        Debug.Log(askPotionText.text);
+        Debug.Log(texts[idSelected]);
+        askPotionText.text = texts[idSelected] + generator.finalPotions[generator.chosenRecipe].name;
     }
 
     // Start is called before the first frame update
@@ -90,7 +96,6 @@ public class NPCClient : MonoBehaviour
         agent.SetDestination(toPoint.position);
 
         canvas = GetComponentInChildren<Canvas>();
-        askPotionText = GetComponentInChildren<Text>();
         ChooseText();
         canvas.gameObject.SetActive(false);
     }

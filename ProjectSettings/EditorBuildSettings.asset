@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/VRSceneMat.unity
-    guid: 6b6d88da170dfd444974f412f65056f7
-  - enabled: 1
-    path: Assets/Scenes/VRScene.unity
-    guid: 1a78ceca71295b14e90fc7e7c1a6b889
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8c75dad200752eb47a3a96ab6607b919, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 70e4aab809c554c4796aae35713af620, type: 2}

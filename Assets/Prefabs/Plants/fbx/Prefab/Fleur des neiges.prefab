@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3157439350963608761}
   - component: {fileID: 6315160447487637685}
   m_Layer: 0
-  m_Name: Fleur des neiges
+  m_Name: Fleur des Neiges
   m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
