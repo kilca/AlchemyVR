@@ -76,8 +76,8 @@ public class NPCClient : MonoBehaviour
 
     void ChooseText() {
         RecipeGenerator generator = FindObjectOfType<RecipeGenerator>();
-        generator.chosenRecipe = Random.Range(0, 2);
-        int idSelected = Random.Range(0, texts.Count - 1);
+        generator.chosenRecipe = Random.Range(0, 3);
+        int idSelected = Random.Range(0, texts.Count);
         Debug.Log(askPotionText.text);
         Debug.Log(texts[idSelected]);
         askPotionText.text = texts[idSelected] + generator.finalPotions[generator.chosenRecipe].name;

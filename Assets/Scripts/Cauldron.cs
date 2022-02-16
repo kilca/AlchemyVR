@@ -66,6 +66,7 @@ public class Cauldron : MonoBehaviour
         recipient.fillAmount = 0.0f;
         recipient.UpdateAmount();
         ingredients.Clear();
+        recipient.ClearColor();
     }
 
     public void MixPotion(){

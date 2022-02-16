@@ -747,12 +747,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60d86d429c5a38a438a713737a4bbcd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  greetingsAudio: {fileID: 8300000, guid: a73bcb4de6433f04a89b00537c1f8d7a, type: 3}
-  victoryAudio: {fileID: 8300000, guid: 51443618202d449489036d3730a609b5, type: 3}
+  greetingsAudio: {fileID: 8300000, guid: 36123505aabef5d4092a8967edafd6f6, type: 3}
+  victoryAudio: {fileID: 8300000, guid: f3fff33d7bb16c341beb45c8d10dbf17, type: 3}
   speed: 3.5
   isWalking: 0
   texts:
-  - 'Nya ! Alchemist-san ! UwU I want '
+  - 'Nya ! Alchemist-san ! (UwU) J''ai besoin d''une '
   askPotionText: {fileID: 1582875602973809460}
 --- !u!195 &1582875601731898001
 NavMeshAgent:

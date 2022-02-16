@@ -1398,8 +1398,8 @@ MonoBehaviour:
   speed: 3.5
   isWalking: 0
   texts:
-  - 'Hey, I''m Chad ! Gimme a '
-  - 'Hello, I''m Chad ! Gimme a '
+  - 'Yo, mon nom est Chad ! Je souhaiterai une '
+  - "Salut ! Je suis Chad, l'homme le plus sexy de la plan\xE8te ! Je voudrai une "
   askPotionText: {fileID: 5088773250583574793}
 --- !u!1 &5370280538743504661
 GameObject:

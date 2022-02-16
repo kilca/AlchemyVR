@@ -82,4 +82,14 @@ public class LiquidRecipient : MonoBehaviour
         m.SetFloat("_FillAmount", ValueToAmount(fillAmount));
     }
 
+    public void ClearColor()
+    {
+        Color finalColor = new Color(81 / 255.0f, 176 / 255.0f, 255 / 255.0f);
+
+        Material m = liquidRenderer.material;
+        m.SetColor("_Tint", finalColor);
+        m.SetColor("_TopColor", finalColor);
+
+    }
+
 }
