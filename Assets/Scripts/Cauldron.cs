@@ -66,11 +66,12 @@ public class Cauldron : MonoBehaviour
         recipient.fillAmount = 0.0f;
         recipient.UpdateAmount();
         ingredients.Clear();
+        recipient.ingredients.Clear();
         recipient.ClearColor();
     }
 
     public void MixPotion(){
-        if (recipient.fillAmount >= 0.9f){
+        if (recipient.fillAmount >= 0.1f){
             isMixed = true;
             recipient.UpdateColor();
             sourceAudio.clip = onMixAudio;
@@ -89,7 +90,7 @@ public class Cauldron : MonoBehaviour
                 {
 
                     GameObject pot = recipeGen.GetFinalPotion(ingredients);
-                    if (pot != null && isMixed)
+                    if (isMixed)
                     {
                         l.fillAmount = 1.0f;
                         l.UpdateAmount();
